@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800);@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700);.font-size-lg {
+    font-size: 2.2rem
+}
+
+body {
+    color: #f5f5f5;
+    font-size: 15px;
+    font-family: Dosis,sans-serif;
+    line-height: 1.80857
+}
+
+a:hover {
+    color: #b0b435
+}
+
+a {
+    color: #daa520
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+nav {
+    background-color: #292b2c
+}
+
+.right {
+    display: flex
+}
+
+.left {
+    display: none
+}
+
+.cart {
+    margin-right: -9px
+}
+
+.login {
+    margin-right: -2px;
+    margin-top: 12px;
+    display: none
+}
+
+.images:hover {
+    height: 220px;
+    box-shadow: 5px 5px 10px grey;
+    transition: .3s
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width:480px) {
+    .right {
+        display:none;
+        background-color: #f50
+    }
+
+    .left {
+        display: flex
+    }
+
+    .moblogo {
+        display: none
+    }
+}
+
+* {
+    box-sizing: border-box
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px
+}
+
+a {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 25px
+}
+.table{
+    margin-top: 130px;
+}
